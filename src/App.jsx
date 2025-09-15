@@ -4,11 +4,13 @@ import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
 import { setLocalStorage } from './utils/localStorage'
 import { useEffect } from 'react'
+import { getLocalStorage } from './utils/localStorage'
 
 const App = () => {
 
   useEffect(() => {
-    setLocalStorage();
+    // setLocalStorage();
+    getLocalStorage();
   },);
   
 
