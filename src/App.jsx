@@ -10,7 +10,7 @@ const App = () => {
 
   useEffect(() => {
     // setLocalStorage();
-    // getLocalStorage();
+    getLocalStorage();
   },);
   
 
